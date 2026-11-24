@@ -1,0 +1,12 @@
+# robots.txt – vatsintech.com
+User-agent: *
+Allow: /
+
+# Block internal / utility pages from indexing
+Disallow: /api/
+Disallow: /thank-you/
+Disallow: /404/
+Disallow: /landing-2/
+
+# Sitemap location
+Sitemap: https://vatsintech.com/sitemap.xml
